@@ -2,7 +2,7 @@ export const doctorData = {
   name: "Dental Office",
   subtitle: "By Dra. María Fernanda Bernal",
   specialty: "Odontología Estética & Alta Gama",
-  avatar: "/src/assets/logo-oficial.jpg", // Usamos el logo oficial en lugar de la foto
+  avatar: "/logo.jpg",
   status: "Agenda tu cita 🟢",
   links: [
     {
@@ -10,7 +10,19 @@ export const doctorData = {
       subtitle: "Atención personalizada y directa",
       url: "https://wa.me/573024203548?text=Hola%20Dra.%20María%20Fernanda,%20deseo%20agendar%20una%20valoración.",
       icon: "whatsapp",
-      primary: true, // Destacado con tonos champaña/cálidos
+      primary: true, // Destacado principal
+    },
+    {
+      title: "Instagram Dental Office",
+      subtitle: "@dentaloffice_bymf • Casos y clínica",
+      url: "https://www.instagram.com/dentaloffice_bymf?cplk=MTFpcTJzbmhmcXR4Zw%3D%3D&utm_source=qr",
+      icon: "instagram",
+    },
+    {
+      title: "Instagram Dra. María Fernanda",
+      subtitle: "@dra.mariafernanda.br • Perfil profesional",
+      url: "https://www.instagram.com/dra.mariafernanda.br?vrfl=MTg4MGd4cmdhOGx2dg==",
+      icon: "instagram",
     },
     {
       title: "Sitio Web Oficial",
@@ -20,7 +32,7 @@ export const doctorData = {
     },
     {
       title: "Síguenos en TikTok",
-      subtitle: "Casos clínicos, tips y transformación de sonrisas",
+      subtitle: "Tips de salud oral y transformación",
       url: "https://www.tiktok.com/@dra.mariafernanda.br?is_from_webapp=1&sender_device=pc",
       icon: "tiktok",
     },
