@@ -5,6 +5,9 @@ import { LocationCard } from "./components/LocationCard";
 import { BackgroundBubbles } from "./components/BackgroundBubbles";
 import { Sparkles, Crown } from "lucide-react";
 
+// Importación directa del logo (Vite lo empaqueta y optimiza de forma perfecta)
+import logoImage from "./assets/logo-oficial.jpg";
+
 export default function App() {
   return (
     <main className="min-h-screen bg-black text-zinc-100 flex flex-col items-center justify-between p-4 sm:p-6 relative overflow-hidden">
@@ -16,11 +19,11 @@ export default function App() {
       <div className="absolute bottom-10 right-1/4 w-[350px] h-[350px] bg-blue-400/5 blur-[160px] rounded-full pointer-events-none z-0" />
 
       <div className="w-full max-w-md z-10 mx-auto pt-14 sm:pt-16 pb-12 flex flex-col items-center text-center">
-        {/* Logotipo Oficial con marco sutil en azul cielo */}
+        {/* Logotipo Oficial con importación directa */}
         <div className="relative mb-6 group">
           <div className="absolute -inset-1 bg-gradient-to-r from-sky-400 via-blue-400 to-cyan-400 rounded-full blur opacity-50 group-hover:opacity-80 transition duration-500"></div>
           <img
-            src={doctorData.avatar}
+            src={logoImage}
             alt="Dental Office Logo"
             className="relative w-36 h-36 sm:w-40 sm:h-40 rounded-full object-cover border-2 border-sky-400/40 shadow-2xl bg-zinc-950 p-2"
           />
