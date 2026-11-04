@@ -2,7 +2,7 @@ export const doctorData = {
   name: "Dental Office",
   subtitle: "By Dra. María Fernanda Bernal",
   specialty: "Odontología Estética & Alta Gama",
-  avatar: "/src/assets/logo-oficial.PNG", // Usamos el logo oficial en lugar de la foto
+  avatar: "/src/assets/logo-oficial.jpg", // Usamos el logo oficial en lugar de la foto
   status: "Agenda tu cita 🟢",
   links: [
     {
