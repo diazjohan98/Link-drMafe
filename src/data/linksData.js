@@ -3,7 +3,7 @@ export const doctorData = {
   subtitle: "By Dra. María Fernanda Bernal",
   specialty: "Odontología Estética & Alta Gama",
   avatar: "/src/assets/logo-oficial.PNG", // Usamos el logo oficial en lugar de la foto
-  status: "Agenda Exclusiva 🟢",
+  status: "Agenda tu cita 🟢",
   links: [
     {
       title: "Agendar Cita por WhatsApp",
